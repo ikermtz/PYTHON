@@ -1,0 +1,20 @@
+# EN ESTE SCRIPT VEREMOS COMO TRABAJAR CON LOS CONJUNTOS
+# NECESITAMOS SABER QUE LOS CONJUNTOS SE DEFINEN CON {}
+# PARA QUE SE DIFERENCIE DE LOS DICCIONARIOS, ES NECESARIO PONER CONJUNTO = SET()
+# NO PUEDE HABER NINGUNA COLECCION DENTRO  DE EL CONJUNTO
+# EN LOS CONJUNTOS LOS VALORES DUPLICADOS SOLO ESTARAN 1 VEZ
+
+
+# Para definir un conjunto
+conjunto = set()
+conjunto={1,2,3,4,5}
+print(conjunto)
+
+
+
+# Añadir elementos --> no tiene por que añadirlos de foma ordenada
+conjunto.add(6)
+print(conjunto)
+
+
+
